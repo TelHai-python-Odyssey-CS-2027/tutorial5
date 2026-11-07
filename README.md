@@ -17,15 +17,16 @@ Practice for lecture 5: dictionaries, building a histogram, and a first look at 
 | `histogram_utils.py` | Graded module — put your finished function here |
 | `examples.py` | Sample data for the histogram notebook |
 | `self_checks.py` | Self-check helpers called from the histogram notebook |
+| `lab_setup_do_not_edit.py` | Auto-reloads local modules after you edit them (do not edit) |
 | `sympy_tutorial.ipynb` | SymPy intro (practice only) |
 
 ## How to work
 
-1. Open the notebooks in Colab (buttons above) or locally.
+1. Open the notebooks in Colab (buttons above) or locally. The first code cell loads helpers and enables auto-reload of local `.py` files.
 2. In the histogram notebook, implement `build_histogram`, then run the **self-check** cell (loads `self_checks.py`).
-3. Copy the finished function into `histogram_utils.py` and **Commit changes** to see the practice autograding score (5 points).
-
-Also add the `matplotlib.pyplot` import (as `plt`) at the top of `histogram_utils.py` so `plot_histogram` can run — that import is not graded.
+3. Copy the finished function into `histogram_utils.py`.
+4. Complete the remaining notebook tasks: write the Matplotlib import in `histogram_utils.py`, then write the imports in the notebook that pull functions/data from `histogram_utils.py` and `examples.py` — figuring out the import syntax is part of the exercise.
+5. **Commit changes** to see the practice autograding score (5 points). Only `build_histogram` in `histogram_utils.py` is graded.
 
 ## Grading — 5 points (practice)
 

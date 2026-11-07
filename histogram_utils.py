@@ -1,12 +1,8 @@
-# Q: Write an import statement that imports pyplot from matplotlib and renames it to plt.
+# Q: Write an import statement that imports the function pyplot from the module matplotlib and renames it to plt.
 
 
 def build_histogram(data):
-    """Return a dict mapping each distinct value in data to its count.
-
-    Example: [1, 2, 2, 3] -> {1: 1, 2: 2, 3: 1}
-    """
-    pass  # Replace the pass with your code
+    pass  # Replace the `pass` with your code
 
 
 def plot_histogram(histogram):
