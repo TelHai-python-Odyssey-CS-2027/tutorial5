@@ -12,13 +12,13 @@ Practice for lecture 5: dictionaries, building a histogram, and a first look at 
 
 | File | Role |
 | --- | --- |
-| `dictionary_basic.ipynb` | Dictionary warm-up (practice only) |
-| `histogram.ipynb` | Implement `build_histogram` with self-check |
-| `histogram_utils.py` | Graded module — put your finished function here |
+| `dictionary_basic.ipynb` | Dictionary warm-up |
+| `histogram.ipynb` | Implement `build_histogram` + import practice |
+| `histogram_utils.py` | Put your finished function / Matplotlib import here |
 | `examples.py` | Sample data for the histogram notebook |
 | `self_checks.py` | Self-check helpers called from the histogram notebook |
 | `lab_setup_do_not_edit.py` | Auto-reloads local modules after you edit them (do not edit) |
-| `sympy_tutorial.ipynb` | SymPy intro (practice only) |
+| `sympy_tutorial.ipynb` | SymPy intro |
 
 ## How to work
 
@@ -26,17 +26,8 @@ Practice for lecture 5: dictionaries, building a histogram, and a first look at 
 2. In the histogram notebook, implement `build_histogram`, then run the **self-check** cell (loads `self_checks.py`).
 3. Copy the finished function into `histogram_utils.py`.
 4. Complete the remaining notebook tasks: write the Matplotlib import in `histogram_utils.py`, then write the imports in the notebook that pull functions/data from `histogram_utils.py` and `examples.py` — figuring out the import syntax is part of the exercise.
-5. **Commit changes** to see the practice autograding score (5 points). Only `build_histogram` in `histogram_utils.py` is graded.
 
-## Grading — 5 points (practice)
-
-| Check | Points |
-| --- | ---: |
-| `build_histogram` — basic frequencies | 1 |
-| `build_histogram` — empty list | 1 |
-| `build_histogram` — all identical | 1 |
-| `build_histogram` — strings | 1 |
-| `build_histogram` — mixed ints | 1 |
+No commit and no submission are required for this tutorial.
 
 ## Optional: keep your changes in Google Drive
 
